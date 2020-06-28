@@ -34,7 +34,8 @@ a {
 }
 
 .health-nav-item {
-  color: #fff !important;
+  color: #ffffff !important;
+  transition: all .3s ease !important;
 }
 
 .health-nav-item:hover {
@@ -270,11 +271,6 @@ a {
   border-radius: 5px;
 }
 
-.feature-title {
-  transition: all .5 ease;
-
-}
-
 .form_input:focus {
   border-color: #BEBCBC;
   box-shadow: none;
@@ -282,8 +278,12 @@ a {
 
 .btn-form {
   background: #FF9700;
-  margin-left: 25%;
 
+
+}
+
+.btnlink {
+  text-align: center;
 }
 
 .form_input::placeholder,
