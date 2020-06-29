@@ -154,7 +154,7 @@ a {
 
 .screen-row {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .screen-img {
