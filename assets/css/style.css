@@ -278,8 +278,12 @@ a {
 
 .btn-form {
   background: #FF9700;
+  transition: all .3s ease;
+}
 
-
+.btn-form:hover {
+  border: 1px solid #cf9f58;
+  color: #fff;
 }
 
 .btnlink {
