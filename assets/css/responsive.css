@@ -204,6 +204,15 @@
   .connect {
     padding-left: 0;
   }
+
+  /* ANIMATIONS AND TRANSITIONS */
+
+  .overview-texts {
+    transition: all 3s ease 524ms;
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+
 }
 
 
