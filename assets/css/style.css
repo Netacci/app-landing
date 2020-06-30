@@ -405,16 +405,38 @@ hr {
 }
 
 .overview-img {
-  transition: all 1s linear;
-  animation-duration: 1s;
+  transition: all 2s linear;
+  animation-duration: 2s;
   animation-delay: 0s;
+
+}
+
+
+.middle-img {
+  transition: all 1s linear;
+  animation-delay: 0;
+  opacity: 0;
+  animation: middleimg 1s linear forwards;
+  position: relative;
+}
+
+@keyframes middleimg {
+  0% {
+    opacity: 0;
+    bottom: -100px;
+  }
+
+  100% {
+
+    opacity: 1;
+    bottom: 0;
+  }
 }
 
 .feature-texts,
 .screenshot-texts,
 .testimonial-texts {
   transition: all .7s linear;
-  animation-duration: .7s;
   animation-delay: 0s;
 }
 
