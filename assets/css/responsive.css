@@ -192,6 +192,11 @@
     margin-bottom: 0.7rem;
   }
 
+  .newsletter-title {
+    text-align: left;
+    margin-left: 4rem;
+  }
+
   /* FOOTER */
   .top-scroll {
     display: block;

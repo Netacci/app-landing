@@ -413,12 +413,15 @@ YOUR MESSAGE
           <div class="news-input form-row row">
             <input
               type="email"
-              class="form-control form_input col-lg-9 newsletter-input ml-lg-3"
+              class="form-control form_input col-lg-8 newsletter-input ml-lg-4"
               id="email"
               placeholder="YOUR EMAIL"
               required
             />
-            <a href="" class="sub-link col-12 col-lg-2 mb-3 mb-lg-0 px-lg-0">
+            <a
+              href=""
+              class="sub-link col-12 col-lg-2 ml-lg-5 mb-3 mb-lg-0 px-lg-0"
+            >
               <button class="btn all-btn mt-lg-0 mb-lg-5 sub-btn mx-auto">
                 Subscribe
               </button></a
@@ -459,19 +462,27 @@ YOUR MESSAGE
                   ><img
                     src="./assets/images/Facebook.svg"
                     alt="facebook-icon"
-                    class="media-icon"
+                    class="media-icon wow animate__bounce"
+                    data-wow-duration="800ms"
+                    id="media1"
                 /></a>
                 <a href="" class="social-links"
                   ><img
                     src="./assets/images/twitter.svg"
                     alt="twitter-icon"
-                    class="media-icon ml-4"
+                    class="media-icon ml-4 wow animate__bounce"
+                    data-wow-duration="800ms"
+                    data-wow-delay="800ms"
+                    id="media2"
                 /></a>
                 <a href="" class="social-links"
                   ><img
                     src="./assets/images/linkedin.svg"
                     alt="linkedin-icon"
-                    class="media-icon ml-4"
+                    class="media-icon ml-4 wow animate__bounce"
+                    data-wow-duration="800ms"
+                    data-wow-delay="1600ms"
+                    id="media3"
                 /></a>
               </div>
             </div>
@@ -516,6 +527,7 @@ YOUR MESSAGE
     <script>
       AOS.init({ offset: 300, duration: 1000 });
     </script>
+
     <script src="./assets/js/healthapp.js"></script>
   </body>
 </html>
