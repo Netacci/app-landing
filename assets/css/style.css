@@ -262,12 +262,12 @@ a {
 }
 
 .form_input {
-  border: 3px solid #B5E2EC;
+  border: 1px solid #222;
   border-radius: 5px;
 }
 
 .form_input:focus {
-  border-color: #B5E2EC;
+  border-color: #222;
   box-shadow: none;
 }
 
