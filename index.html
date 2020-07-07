@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon-precomposed" href="" />
     <!-- Google fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <!-- CSS links-->
@@ -44,11 +44,12 @@
       <header class="health-header">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand health-logo" href="index.html"
+            <a class="navbar-brand pb-0 mr-0" href="index.html"
               ><img
                 src="./assets/images/logo.svg"
                 alt=""
-                class="health-logo-img"
+                class="img-fluid d-inline-block align-bottom"
+                loading="lazy"
             /></a>
             <button
               class="navbar-toggler health-nav-toggler"
@@ -94,52 +95,54 @@
             </div>
           </nav>
 
-          <div class="hero mt-lg-5">
-            <h1 class="page-header text-capitalize health-hero-title">
+          <div class="hero mt-5">
+            <h1 class="text-capitalize health-hero-title">
               health link app
             </h1>
             <p class="hero-text">
               Take care of You Health Anytime, Anywhere
             </p>
-            <button class="btn col-sm-12 col-md-3 col-lg-2 header-btn all-btn">
-              Download
-            </button>
             <button
-              class="btn col-sm-12 col-md-3 col-lg-2 header-second-btn all-btn"
+              class="btn mb-5 mt-5 col-sm-12 col-md-3 col-lg-2 header-btn all-btn"
             >
-              Learn More
+              Download
             </button>
           </div>
         </div>
       </header>
       <!-- HEADER EBDS -->
       <!-- OVERVIEW SECTION STARTS -->
-      <div class="container overview-section">
-        <div
-          class="overview-texts all-texts mt-4 wow animate__fadeIn"
-          data-wow-duration="1s"
-        >
-          <h2 class="overview-title all-title">Overview</h2>
-          <p class="overview-p all-p">
-            Health link App and custom development allow healthcare institutions
-            to create comprehensive cross-platform solutions that ensure
-            positive patient experiences.
-          </p>
-          <a href="#features" class="overview-link">Read More</a>
-        </div>
-        <div class="overview-img wow animate__fadeInUp" data-wow-duration="2s">
-          <img
-            src="./assets/images/overview-img.svg"
-            alt=""
-            class="view-img col-lg-10 img-fluid"
-          />
+      <div class="container overview-section mb-5">
+        <div class="conatiner">
+          <div
+            class="overview-texts all-texts mt-4 wow animate__fadeIn"
+            data-wow-duration="1s"
+          >
+            <h2 class="overview-title all-title">Overview</h2>
+            <p class="overview-p all-p mt-lg-3">
+              Health link App and custom development allow healthcare
+              institutions to create comprehensive cross-platform solutions that
+              ensure positive patient experiences.
+            </p>
+          </div>
+          <div
+            class="overview-img wow mt-4 mt-lg-3 animate__fadeInUp col-lg-5"
+            data-wow-duration="2s"
+          >
+            <img
+              src="./assets/images/overview-img.svg"
+              alt=""
+              class="view-img img-fluid"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
       <!-- FEATURES SECTION -->
       <section id="features" class="feature-section mb-4">
-        <div class="container mb-5">
+        <div class="container mb-5 mt-lg-5">
           <div class="feature-texts all-texts mt-4" data-aos="fade-right">
-            <h2 class="feature-title all-title">Health Link Features</h2>
+            <h2 class="all-title">Health Link Features</h2>
             <p class="feature-p mt-3 all-p mx-auto">
               Health link App and custom development allow healthcare
               institutions to create comprehensive cross-platform solutions that
@@ -147,58 +150,73 @@
             </p>
           </div>
           <div class="card-container mt-5">
-            <div class="cards mt-3">
+            <div class="cards mt-4">
               <img
                 src="./assets/images/doctor search.svg"
                 alt=""
                 class="icon"
+                loading="lazy"
               />
               <p class="icon-title mt-2 mb-1">Doctor Search</p>
-              <p class="icon-p">Search for medical outlets around you</p>
+              <p class="all-p">Search for medical outlets around you</p>
             </div>
-            <div class="cards mt-3">
+            <div class="cards mt-4">
               <img
                 src="./assets/images/messaging.svg"
                 alt="icon"
                 class="icon"
+                loading="lazy"
               />
               <p class="icon-title mt-2 mb-1">Messaging</p>
-              <p class="icon-p">Search for medical outlets around you</p>
+              <p class="all-p">Search for medical outlets around you</p>
             </div>
-            <div class="cards mt-3">
-              <img src="./assets/images/call.svg" alt="icon" class="icon" />
+            <div class="cards mt-4">
+              <img
+                src="./assets/images/call.svg"
+                alt="icon"
+                class="icon"
+                loading="lazy"
+              />
               <p class="icon-title mt-2 mb-1">In App Call</p>
-              <p class="icon-p">Search for medical outlets around you</p>
+              <p class="all-p">Search for medical outlets around you</p>
             </div>
             <div class="middle-img d-none d-lg-block" data-aos="fade-up">
               <img
                 src="./assets/images/features-img.svg"
                 alt="picture"
                 class="feature-img"
+                loading="lazy"
               />
             </div>
-            <div class="cards mt-3">
+            <div class="cards mt-4">
               <img
                 src="./assets/images/medication.svg"
                 alt="icon"
                 class="icon"
+                loading="lazy"
               />
               <p class="icon-title mt-2 mb-1">Medication Alert</p>
-              <p class="icon-p">Search for medical outlets around you</p>
+              <p class="all-p">Search for medical outlets around you</p>
             </div>
-            <div class="cards mt-3">
+            <div class="cards mt-4">
               <img
                 src="./assets/images/Emergency.svg"
                 alt="icon"
                 class="icon"
+                loading="lazy"
               />
               <p class="icon-title mt-2 mb-1">Emergency</p>
-              <p class="icon-p">Search for medical outlets around you</p>
+              <p class="all-p">Search for medical outlets around you</p>
             </div>
-            <div class="cards last-card mt-3">
-              <img src="./assets/images/bot.svg" alt="icon" class="icon" />
+            <div class="cards last-card mt-4">
+              <img
+                src="./assets/images/bot.svg"
+                alt="icon"
+                class="icon"
+                loading="lazy"
+              />
               <p class="icon-title">Health Analysis Bot</p>
-              <p class="icon-p">Search for medical outlets around you</p>
+              <p class="all-p">Search for medical outlets around you</p>
             </div>
           </div>
         </div>
@@ -210,28 +228,31 @@
         <div class="container">
           <div class="screenshot-texts all-texts mt-4" data-aos="fade-right">
             <h2 class="screenshot-title all-title">App Screenshot</h2>
-            <p class="screenshot-p mt-3 all-p mx-auto">
+            <p class="screenshot-p mt-3 mt-lg-4 all-p mx-auto">
               Health link App and custom development allow healthcare
               institutions to create comprehensive cross-platform solutions that
               ensure positive patient experiences.
             </p>
           </div>
 
-          <div class="row screen-row">
+          <div class="row screen-row mt-lg-4">
             <img
               src="./assets/images/app-gallery1.svg"
               alt="picture"
-              class="app-img1 col-4 img-fluid pr-0"
+              class="app-img1 col-4 img-fluid px-0"
+              loading="lazy"
             />
             <img
               src="./assets/images/app-gallery-img2.svg"
               alt="picture"
               class="app-img2 col-4 img-fluid px-0"
+              loading="lazy"
             />
             <img
               src="./assets/images/app-gallery-img3.svg"
               alt="picture"
-              class="col-4 img-fluid pl-0 app-img3"
+              class="col-4 img-fluid px-0 app-img3"
+              loading="lazy"
             />
           </div>
         </div>
@@ -239,7 +260,7 @@
       <!-- END OF SCREENSHOT -->
 
       <!-- TESTIMONIAL SECTION -->
-      <section id="testimonials" class="testimonial-section mb-4">
+      <section id="testimonials" class="testimonial-section mb-4 mt-lg-3">
         <div class="container">
           <div class="testimonial-texts all-texts mt-4" data-aos="fade-right">
             <h2 class="testimonial-title all-title">Testimonials</h2>
@@ -248,9 +269,9 @@
               institutions to create.
             </p>
           </div>
-          <div class="row review-row px-3">
+          <div class="row review-row px-3 mt-lg-3">
             <div class="review col-12 ml-md-5 col-md-5" data-aos="flip-right">
-              <div class="review-profile mt-4 row">
+              <div class="review-profile mt-5 row">
                 <img
                   src="./assets/images/review-2.svg"
                   alt="user pic"
@@ -261,7 +282,7 @@
                   <p class="user-title mb-1">Retired Soldier</p>
                 </div>
               </div>
-              <p class="review-text mt-md-4">
+              <p class="all-p text-center mt-md-4">
                 Health link App and custom development allow healthcare
                 institutions to create comprehensive cross-platform solutions
                 that ensure positive patient experiences.
@@ -276,7 +297,7 @@
               class="review col-12 mt-4 mt-md-0 ml-md-5 col-md-5"
               data-aos="flip-right"
             >
-              <div class="review-profile mt-4 row">
+              <div class="review-profile mt-5 row">
                 <img
                   src="./assets/images/review-1.svg"
                   alt="user pic"
@@ -287,7 +308,7 @@
                   <p class="user-title mb-1">Pediatrician</p>
                 </div>
               </div>
-              <p class="review-text mt-md-4">
+              <p class="all-p text-center mt-md-4">
                 Health link App and custom development allow healthcare
                 institutions to create comprehensive cross-platform solutions
                 that ensure positive patient experiences.
@@ -305,25 +326,31 @@
 
       <!-- DOWNLOAD SECTION -->
       <section id="download" class="download-section mt-5">
-        <div class="container dl-container mt-4 mb-4">
-          <div class="row dl-row">
-            <div class="img-wrap col-lg-3" data-aos="fade-left">
+        <div class="container dl-container mt-0 pt-0 py-lg-4">
+          <div class="row dl-row justify-content-between">
+            <div class="img-wrap col-lg-2 mr-5" data-aos="fade-left">
               <img
                 src="./assets/images/footer-img.svg"
                 alt="picture"
                 class="download-img d-none d-lg-block img-fluid"
+                loading="lazy"
               />
             </div>
 
-            <div class="download-texts mt-4 col-lg-8" data-aos="fade-right">
+            <div
+              class="download-texts pl-lg-5 pr-lg-0 mt-5 col-lg-8 ml-lg-5"
+              data-aos="fade-right"
+            >
               <h2 class="dl-title text-capitalize">get the app now !</h2>
-              <p class="dl-p mt-3">
+              <p class="dl-p mt-3 mt-lg-4">
                 Health link App and custom development allow healthcare
                 institutions to create comprehensive cross-platform solutions
                 that ensure positive patient experiences.
               </p>
-              <div class="download-links">
-                <a href="#" class="app-btn btn">
+              <div
+                class="download-links mt-lg-4 d-flex flex-column flex-lg-row"
+              >
+                <a href="#" class="app-btn pl-lg-0 btn">
                   <img
                     src="./assets/images/apple.svg"
                     alt="apple-icon"
@@ -345,13 +372,12 @@
       <!-- END OF DOWNLOAD SECTION -->
 
       <!-- CONTACT FORM SECTION -->
-      <section id="contact" class="form-section">
+      <section id="contact" class="form-section mb-5">
         <div class="container">
           <div class="form-texts mt-4" data-aos="fade-right">
-            <!-- <hr /> -->
-            <h2 class="form-title px-3 py-3">Reach us Quickly</h2>
+            <h2 class="form-title">Reach us Quickly</h2>
           </div>
-          <form class="form-wrap">
+          <form class="form-wrap mt-lg-3">
             <div class="row form-row">
               <div class="col col-12 col-lg-6 input-wrap">
                 <input
@@ -394,107 +420,95 @@
                   id="exampleFormControlTextarea1"
                   rows="6"
                   placeholder="YOUR MESSAGE"
-                >
-YOUR MESSAGE
-                </textarea>
+                ></textarea>
               </div>
-              <a href="" class="btnlink col-12">
-                <button type="submit" class="btn all-btn btn-form">
-                  Send Message
-                </button>
-              </a>
+              <button
+                class="btnlink btn all-btn btn-form mt-3 text-center mx-auto"
+              >
+                Send Message
+              </button>
             </div>
           </form>
         </div>
       </section>
       <!-- END OF FORM -->
 
-      <!-- NEWSLETTER BEGINS -->
-      <section class="support mt-5">
-        <div class="container">
-          <div
-            class="newsletter-texts all-texts mt-4"
-            data-aos="fade-right"
-            data-aos-duration="500"
-          >
-            <h2 class="newsletter-title all-title">Join Our Newsletter</h2>
-          </div>
-          <div class="news-input form-row row">
-            <input
-              type="email"
-              class="form-control form_input col-lg-8 newsletter-input ml-lg-4"
-              id="email"
-              placeholder="YOUR EMAIL"
-              required
-            />
-            <a
-              href=""
-              class="sub-link col-12 col-lg-2 ml-lg-5 mb-3 mb-lg-0 px-lg-0"
-            >
-              <button class="btn all-btn mt-lg-0 mb-lg-5 sub-btn mx-auto">
-                Subscribe
-              </button></a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- NEWSLETTER ENDS HERE -->
-
       <!-- FOOTER BEGINS HERE -->
       <footer class="footer-section">
-        <div class="container">
+        <div class="container pl-lg-5 mt-lg-5">
           <div class="row mt-3">
-            <div class="logo-img col-12 mt-3 mt-lg-4">
-              <img
-                src="./assets/images/Logo.svg"
-                alt="logo"
-                class="footer-logo"
-              />
+            <div class="row mx-auto col-lg-4 pl-lg-5">
+              <div class="logo-img col-12 mt-3 mt-lg-0">
+                <img
+                  src="./assets/images/Logo.svg"
+                  alt="logo"
+                  class="footer-logo"
+                />
+              </div>
+              <div class="connect col-12 mt-3 mt-lg-0">
+                <div
+                  class="socials row mt-4 mt-lg-0 col-lg-12 justify-content-lg-start"
+                >
+                  <ion-icon
+                    name="logo-facebook"
+                    class="media-icon wow animate__bounce"
+                    data-wow-duration="800ms"
+                  ></ion-icon>
+                  <ion-icon
+                    name="logo-twitter"
+                    class="media-icon ml-4 wow animate__bounce"
+                    data-wow-duration="800ms"
+                    data-wow-delay="800ms"
+                  ></ion-icon>
+                  <ion-icon
+                    name="logo-linkedin"
+                    class="media-icon ml-4 wow animate__bounce"
+                    data-wow-duration="800ms"
+                    data-wow-delay="1600ms"
+                  ></ion-icon>
+                </div>
+              </div>
             </div>
-            <div class="contactus mt-4 col-12">
+
+            <div class="contactus mt-5 col-12 col-lg-4 mt-lg-0 text-lg-left">
               <div class="footer-contact">
                 <h3 class="foot-title">Contact Us</h3>
               </div>
-              <div class="foot-links row">
-                <p class="footer-text col-lg-4 mt-3">Phone: +61 2 8376 6284</p>
-                <p class="footer-text col-lg-4 mt-3">
+              <div class="foot-links flex-column row ml-lg-1">
+                <p class="footer-text foot-addy mt-3 mx-auto mx-lg-0">
                   Head Office: 121 King St, Melbourne VIC 3000, Australia
                 </p>
-                <p class="footer-text col-lg-4 mt-3">
+                <p class="footer-text mt-3">Phone: +61 2 8376 6284</p>
+                <p class="footer-text mt-3">
                   Email: healthlink@tech.com
                 </p>
               </div>
             </div>
-            <div class="connect col-12 mt-lg-4 mt-3">
-              <div class="socials row mt-4">
-                <a href="" class="social-links"
-                  ><img
-                    src="./assets/images/Facebook.svg"
-                    alt="facebook-icon"
-                    class="media-icon wow animate__bounce"
-                    data-wow-duration="800ms"
-                    id="media1"
-                /></a>
-                <a href="" class="social-links"
-                  ><img
-                    src="./assets/images/twitter.svg"
-                    alt="twitter-icon"
-                    class="media-icon ml-4 wow animate__bounce"
-                    data-wow-duration="800ms"
-                    data-wow-delay="800ms"
-                    id="media2"
-                /></a>
-                <a href="" class="social-links"
-                  ><img
-                    src="./assets/images/linkedin.svg"
-                    alt="linkedin-icon"
-                    class="media-icon ml-4 wow animate__bounce"
-                    data-wow-duration="800ms"
-                    data-wow-delay="1600ms"
-                    id="media3"
-                /></a>
+
+            <!-- NEWSLETTER BEGINS -->
+
+            <div class="subscribe col-12 col-lg-4">
+              <div class="newsletter-texts mt-4 mt-lg-0">
+                <h2 class="newsletter-title text-center text-lg-left">
+                  Join Our Newsletter
+                </h2>
+              </div>
+              <div class="news-input form-row row mt-lg-3">
+                <input
+                  type="email"
+                  class="form-control py-4 newsletter-input col-12"
+                  id="email"
+                  placeholder="YOUR EMAIL"
+                  required
+                />
+                <button
+                  class="sub-link btn all-btn sub-btn mt-lg-3 text-center mx-lg-0 mx-auto mt-2 mt-lg-0 mb-2"
+                >
+                  Subscribe
+                </button>
               </div>
             </div>
+            <!-- NEWSLETTER ENDS HERE -->
             <a href="#" id="topscroll" class="top-scroll"
               ><img
                 src="./assets/images/arrow.svg"
@@ -528,6 +542,7 @@ YOUR MESSAGE
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="./assets/js/wow.min.js"></script>
     <script>
       new WOW().init();
