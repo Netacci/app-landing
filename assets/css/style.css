@@ -7,17 +7,12 @@
 
 :root {
   --header-bg-color: linear-gradient(125.1deg, #265ED7 30.13%, #A4DAD2 94.13%), #A4DAD2;
-  --header-text: #fff;
-  --nav-hover: #FF9700;
-  --button-text: #fff;
-  --button-color: #FF9700;
+  --secondary-color: #FF9700;
   --button-hover: #cf9f58;
-  --headings: #072B77;
-  --body-text: #000;
-  --feature-bg-color: #F0F8F6;
-  --review-title: #FF9700;
-  --white-text: #fff;
-  --form-input: #000;
+  --blue-color: #072B77;
+  --black-color: #000;
+  --bg-color: #F0F8F6;
+  --white-color: #fff;
   --placeholders: #BEBCBC;
   --footer: linear-gradient(111.58deg, #073BAC 26.34%, #265ED7 70.83%), #A4DAD2;
   --footer-text: #A4DAD2;
@@ -43,21 +38,21 @@ a {
 }
 
 .health-nav-item {
-  color: var(--header-text) !important;
+  color: var(--white-color) !important;
   transition: all .3s ease !important;
 }
 
 .health-nav-item:hover {
-  color: var(--nav-hover) !important;
+  color: var(--secondary-color) !important;
 }
 
 .health-nav-item:active {
-  color: var(--nav-hover) !important;
+  color: var(--secondary-colorr) !important;
 
 }
 
 .active {
-  color: var(--nav-hover);
+  color: var(--secondary-color);
 }
 
 .health-nav-toggler:focus {
@@ -70,14 +65,14 @@ a {
 }
 
 .health-hero-title {
-  color: var(--header-text);
+  color: var(--white-color);
   font-size: 2.25rem;
   font-weight: bold;
 }
 
 .hero-text {
   font-weight: normal;
-  color: var(--header-text);
+  color: var(--white-color);
   font-size: 1.125rem;
   line-height: 22px;
   font-style: normal;
@@ -85,25 +80,26 @@ a {
 }
 
 .all-btn {
-  border-radius: 15px;
-  color: var(--button-text);
+  border-radius: 5px;
+  color: var(--white-color);
   margin-top: 5%;
-  width: 200px;
-  height: 63px;
+  width: 150px;
+  height: 41.34px;
   font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 17px;
+  background: var(--secondary-color);
 }
 
 .header-btn {
-  background: var(--button-color);
+
   transition: all .3s ease;
-  font-size: 1.5rem;
-  line-height: 29px;
 }
 
 
 .all-btn:hover {
   border: 1px solid var(--button-hover);
-  color: var(--button-text);
+  color: var(--white-color);
   opacity: 0.8;
 }
 
@@ -115,8 +111,8 @@ a {
 }
 
 .all-title {
-  color: var(--headings);
-  font-size: 2.25rem;
+  color: var(--blue-color);
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 44px;
 
@@ -124,7 +120,7 @@ a {
 
 .all-p {
   font-size: 0.875rem;
-  color: var(--body-text);
+  color: var(--black-color);
   line-height: 122.4%;
   font-weight: normal;
 }
@@ -137,7 +133,7 @@ a {
 
 /* FEATURES SECTION */
 .feature-section {
-  background: var(--feature-bg-color);
+  background: var(--bg-color);
   padding: 1px;
 }
 
@@ -146,8 +142,8 @@ a {
 }
 
 .icon-title {
-  font-size: 1.5rem;
-  color: var(--body-text);
+  font-size: 1.125rem;
+  color: var(--black-color);
   line-height: 29px;
   font-weight: normal;
 }
@@ -167,14 +163,20 @@ a {
 }
 
 .app-img1 {
-  margin-right: -1%;
-  margin-left: 20%;
+  margin-right: 11%;
+  margin-left: 10%;
+  margin-top: 3rem;
 }
 
 .app-img2 {
-  margin-right: -20%;
-  margin-left: -18%;
+  margin-right: -9%;
+  margin-left: -22%;
+
   z-index: 10;
+}
+
+.app-img3 {
+  margin-top: 3rem;
 }
 
 /* TESTIMONIAL SECTION */
@@ -184,12 +186,12 @@ a {
 
 .user-name {
   font-size: 1rem;
-  color: var(--body-text);
+  color: var(--black-color);
   font-weight: 700;
 }
 
 .user-title {
-  color: var(--review-title);
+  color: var(--secondary-color);
 }
 
 .user-details {
@@ -201,7 +203,7 @@ a {
 }
 
 .review {
-  background: var(--feature-bg-color);
+  background: var(--bg-color);
   padding: 1px;
 }
 
@@ -223,7 +225,7 @@ a {
 }
 
 .dl-title {
-  color: var(--white-text);
+  color: var(--white-color);
   font-size: 2.20rem;
   font-weight: 600;
   line-height: 44px;
@@ -231,7 +233,7 @@ a {
 
 .dl-p {
   font-size: 0.875rem;
-  color: var(--white-text);
+  color: var(--white-color);
   line-height: 122.4%;
   font-weight: normal;
 
@@ -252,40 +254,37 @@ a {
 }
 
 .form-title {
-  color: var(--headings);
+  color: var(--blue-color);
   font-size: 2.20rem;
   font-weight: 600;
   line-height: 44px;
 }
 
 .form_input {
-  border: 1px solid var(--form-input);
+  border: 1px solid var(--black-color);
   border-radius: 5px;
 }
 
 .form_input:focus {
-  border-color: var(--form-input) !important;
+  border-color: var(--black-color) !important;
   box-shadow: none;
 }
 
 .form-control:focus {
-  color: var(--form-input) !important;
+  color: var(--black-color) !important;
 }
 
 .form_input:active {
-  border-color: var(--form-input);
+  border-color: var(--black-color);
 }
 
 .btn-form {
-  background: var(--button-color);
   transition: all .3s ease;
-  font-size: 1.125rem;
-  font-weight: bold;
 }
 
 .btn-form:hover {
   border: 1px solid var(--button-hover);
-  color: var(--button-text);
+  color: var(--white-color);
 }
 
 .form_input::placeholder,
@@ -298,19 +297,17 @@ textarea.form_input {
 .newsletter-title {
   color: var(--footer-text);
   font-weight: 500;
-  font-size: 2.1rem;
+  font-size: 1.5rem;
 }
 
 .newsletter-input {
-  border: 2px solid var(--white-text);
+  border: 2px solid var(--white-color);
   border-radius: 5px;
   background: none;
 }
 
-.sub-btn {
-  background: var(--button-color);
-  color: var(--button-text);
-  font-size: 1.125rem;
+.newsletter-input::placeholder {
+  font-size: 0.875rem;
 }
 
 .sub-link {
@@ -338,7 +335,7 @@ textarea.form_input {
 }
 
 hr {
-  border-top: 1px solid var(--white-text);
+  border-top: 1px solid var(--white-color);
 }
 
 .connect {
@@ -355,7 +352,7 @@ hr {
 }
 
 .copy-p {
-  color: var(--white-text);
+  color: var(--white-color);
   font-size: 0.875rem;
   text-align: center;
   font-weight: 600;
@@ -369,17 +366,17 @@ hr {
 
 .foot-title {
   color: var(--footer-text);
-  font-size: 2.25rem;
+  font-size: 1.5rem;
 }
 
 .footer-text {
-  color: var(--white-text);
-  font-size: 1rem;
+  color: var(--white-color);
+  font-size: 0.875rem;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 17px;
 }
 
 .media-icon {
-  font-size: 2.5rem;
-  color: var(--white-text);
+  font-size: 1.5rem;
+  color: var(--white-color);
 }
