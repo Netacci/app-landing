@@ -99,13 +99,13 @@
   }
 
   .view-img {
-    height: 38rem;
+    height: 35rem;
   }
 
   .overview-img {
     position: absolute;
     left: 60%;
-    top: -206%;
+    top: -198%;
   }
 
   /* FEATURES  */
